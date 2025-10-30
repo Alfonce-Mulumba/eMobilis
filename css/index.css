@@ -15,7 +15,7 @@ h1{
     text-shadow: 2px 2px 8px gray;
 }
 button{
-    background-color: #07ef0f;
+    background-color: #580dc8;
     color: #ffffff;
     font-size: 22px;
     width: 150px;
@@ -23,7 +23,7 @@ button{
     border-radius: 25px;
 }
 button:hover{
-    background-color: #428043;
+    background-color: #045805;
 }
 
 h2{
