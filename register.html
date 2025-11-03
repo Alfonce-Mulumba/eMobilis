@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page - BuyBloom</title>
+    <link rel="stylesheet" href="css/register.css">    
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+    <source src="assets/bgv.mp4" type="video/mp4">
+  </video>
+    <form action="">
+        <legend><u>Create Account</u></legend>
+        <br>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" placeholder="firstname here" required>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" placeholder="lastname here" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email here" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="07..." required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" id="confirmpassword" placeholder="Confirm password" required>
+        <br>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" required><br>
+        <label for="dt">Date & Time:</label>
+        <input type="datetime-local" id="dt" required>
+        <br>
+        <label for="file">Upload CV</label>
+        <input type="file" id="file" required>
+        <br>
+        <label for="year">select year of study</label>
+        <select id="year" required>
+            <option value="">--Select Year--</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+            <option value="5">5th Year</option>
+            <option value="6">6th Year</option>
+        </select>
+        <br>
+        <p>Choose fav team</p>
+        <label for="teamkubwa">Manchester United</label>
+        <input type="radio" id="teamkubwa" name="favteam">
+        <label for="teamndogo">Chelsea</label>
+        <input type="radio" id="teamndogo" name="favteam">
+        <label for="teamndogo">Arsenal</label>
+        <input type="radio" id="teamndogo" name="favteam">
+        <br>
+        <p>Select your favourite programming language</p>
+        <label for="langpython">Python</label>
+        <input type="checkbox" id="langpython" name="python">
+        <label for="langjs">JavaScript</label>
+        <input type="checkbox" id="langjs" name="JavaScript">
+        <label for="langjava">Java</label>
+        <input type="checkbox" id="langjava" name="java">
+        <label for="langphp">csharp</label>
+        <input type="checkbox" id="langphp" name="csharp">   
+        <br><br>
+        <p>Describe yourself</p>
+        <textarea id="message" cols="30" rows="5" placeholder="Describe yourself here"></textarea>
+        <br><br>
+        <button type="submit">Register</button>
+
+
+
+<!--assignment (register button-center it and other styles, add bg image)-->
+
+    </form>
+    
+</body>
+</html>
