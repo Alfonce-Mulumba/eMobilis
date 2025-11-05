@@ -52,7 +52,39 @@
 
             </table>
 
+<!---Bootstrap Form-->
+<h1 class="text-center">Apply for a Leave Now!</h1>
+<p class="m-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nemo fugiat, magnam adipisci nihil in et numquam, quo libero nam aliquam nostrum nisi quis voluptas harum, quod explicabo ut molestias?
+Pariatur itaque odit exercitationem. Esse itaque nisi error dignissimos, suscipit repellat, assumenda distinctio at laudantium amet deleniti quas? Reprehenderit necessitatibus beatae nulla dolorem illo tenetur? Nobis voluptates necessitatibus quia provident.</p>
 
+    <form action="submit" class="m-auto w-75 p-4 border border-rounded border-primary rounded-3 bg-light">
+        <div class="m-auto w-75">
+            <label for="names" class="fw-bold">Full Names</label>
+            <input type="text" id="names" name="names" class="form-control w-50 mb-3" placeholder="Enter your full names" required>
+
+        </div>
+        <div class="m-auto w-75">
+            <label for="email" class="fw-bold">Email</label>
+            <input type="email" id="email" class="form-control w-50 mb-3" placeholder="abc@gmail.com" required>
+        </div>
+        <div class="m-auto w-75">
+            <label for="leave-type" class="fw-bold">Leave Type</label>
+            <select id="leave-type" class="form-select w-50 mb-3" required>
+                <option value="" disabled selected>Select leave type</option>
+                <option value="sick">Sick Leave</option>
+                <option value="casual">Casual Leave</option>
+                <option value="maternity">Maternity Leave</option>
+                <option value="paternity">Paternity Leave</option>
+            </select>
+        </div>
+            <div class="m-auto w-75">
+            <label for="reason" class="fw-bold">Reason</label>
+            <textarea name="" id="" class="form-control border" rows="5" placeholder="Enter reason for application" required></textarea>
+        </div>
+        <button class="btn btn-outline-primary mt-3 m-auto d-block">Submit</button>
+    </form>
+    <br><br><br><br><br>
+<!--Assignment(create a form)-->
 
 </body>
 </html>
